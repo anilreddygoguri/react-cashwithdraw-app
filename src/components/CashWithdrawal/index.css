@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.cashWithdrawal-bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Withdraw-card {
+  width: 350px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #150b3e;
+  border-radius: 20px;
+  padding: 40px;
+}
+.profile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.profile {
+  background-color: #c7d2fe;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.profile-image {
+  font-size: 20px;
+  color: #7c3aed;
+}
+.name {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Roboto';
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-heading {
+  color: #585076;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.rupees {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.rupees-text {
+  color: #585076;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.withdraw-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 38px;
+}
+.choose-amount-text {
+  color: #585076;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.list-ul-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+}
